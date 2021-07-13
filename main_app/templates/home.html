@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    <title>Nucleotide Blast Finder</title>
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <main class="px-3">
+    <h1>BLAST FINDER</h1>
+    <p class="lead">A simple web page that performs a web BLAST query against nt using a DNA sequence</p>
+    <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="place your nucleotide input sequence HERE And then click BLAST OFF!" aria-label="DNA sequence" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">BLAST OFF!</button>
+    </div>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Cover template from <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, used by <a href="https://www.linkedin.com/in/brittany-servent/" class="text-white">@britt</a>.</p>
+  </footer>
+</div>
+</body>
+</html>
+

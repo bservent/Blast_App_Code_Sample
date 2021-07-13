@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0;
+    margin: 1.0;
+    justify-content: center;
+    opacity: .9;
+    min-height: 100wh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black
+}
