@@ -20,12 +20,14 @@ The application should be running on http://localhost:8000
 
 
 Technologies in play:
-Python
-Django
-postgresql
-Bootstrap4
-Biopython
-BLAST
+Python,
+Django,
+postgresql,
+Bootstrap4,
+Biopython, and 
+BLAST API
+
+<img width="1440" alt="Screen Shot 2021-07-13 at 6 56 08 PM" src="https://user-images.githubusercontent.com/69656339/125552611-156af297-a27f-40ee-a3df-7625dace649a.png">
 
 
 
