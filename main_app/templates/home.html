@@ -19,10 +19,15 @@
   <main class="px-3">
     <h1>BLAST FINDER</h1>
     <p class="lead">A simple web page that performs a web BLAST query against nt using a DNA sequence</p>
-    <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="place your nucleotide input sequence HERE And then click BLAST OFF!" aria-label="DNA sequence" aria-describedby="button-addon2">
-    <button class="btn btn-outline-secondary" type="button" id="button-addon2">BLAST OFF!</button>
+    <div class="container-form">
+    <div class="inner-container">
+        <form method="GET" enctype="multipart/form-data" action="{% url 'result1' %}"> 
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button style="margin-bottom: 20px;" type="submit" class="btn-info">BLAST OFF!</button>
+        </form>
     </div>
+</div>
   </main>
 
   <footer class="mt-auto text-white-50">
