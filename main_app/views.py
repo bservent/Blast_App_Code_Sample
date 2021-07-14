@@ -12,18 +12,14 @@ def home(request):
     return render(request, 'home.html', {'form': form})
 
 def result1(request):
-    error_message = 'Not a valid input'
     if request.method == 'GET':
-            sequence = 'ATTGAACGCTGGCGGCAGGCTTAACACATGCAAGTCGAGCGGGGGAAGGTAGCTTGCTACTGGACCTAGCGGCGGACGGGTGAGTAATGCTTAGGAATCTGCCTATTAGTGGGGGACAAATCTCGAAAGGGATGCTAATACCGCATACGTCCTACGGGAGAAAGCAGGGGATCTTCGGCCTTGCGCTAATAGATGAGCCTAAGTCGGATTAGCTAGTTGGTGGGGTAAAGGCCTACCAAGGCGACGATCTGTAGCGGGTCTGAGAGGATGATCCGCCACACTGGGACTGAGACACGGCCCAGA'
             f = open('main_app/static/blast_query_output.txt') 
             file_content = f.read()
             f.close()
             return HttpResponse(file_content, content_type='text/plain')
 
 def result2(request):
-    error_message = 'Not a valid input'
     if request.method == 'GET':
-            sequence_form = 'GATGAACGCTGGCGGCGTGCCTAATACATGCAAGTCGAGCGAATGGATTAAGAGCTTGCTCTTATGAAGTTAGCGGCGGACGGGTGAGTAACACGTGGGTAACCTGCCCATAAGACTGGGATAACTCCGGGAAACCGGGGCTAATACCGGATAACATTTTGAACCGCATGGTTCGAAATTGAAAGGCGGCTTCGGCTGTCACTTATGGATGGACCCGCGTCGCATTAGCTAGTTGGTGAGGTAACGGCTCACCAAGGCAACGATGCGTAGCCGACCTGAGAGGGTGATCGGCCACACTGGGACTGAGACACGGCCCAGA'
             f = open('main_app/static/blast_query_output2.txt') 
             file_content = f.read()
             f.close()

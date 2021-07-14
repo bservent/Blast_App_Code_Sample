@@ -22,7 +22,6 @@
     <div class="container-form">
     <div class="inner-container">
         <form method="GET" enctype="multipart/form-data" action="{% url 'result1' %}"> 
-        {% csrf_token %}
         {{ form.as_p }}
         <button style="margin-bottom: 20px;" type="submit" class="btn-info">BLAST OFF!</button>
         </form>
