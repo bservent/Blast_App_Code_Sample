@@ -32,6 +32,8 @@ BLAST API
 
 <img width="1436" alt="Screen Shot 2021-07-13 at 6 56 46 PM" src="https://user-images.githubusercontent.com/69656339/125552889-89e8684b-ddad-415d-b0d9-3df8a85aa9bc.png">
 
+<img width="1436" alt="Screen Shot 2021-07-13 at 6 57 11 PM" src="https://user-images.githubusercontent.com/69656339/125552994-dac52a29-3003-47dc-9e7a-120aa2f2ab22.png">
+
 
 
 Backend: The first thing I did was acquaint myself with biopython and BLAST for a few hours and make a BLAST query in the terminal using the python shell. After feeling more comfortable with the BLAST API, I decided on my technology stack. I first made a working virtual environment for my Python/Django backend then installed all the dependencies I would need and saved the dependencies in a requirement file. Then I fired up the django server and created the postgresql database. After making sure all of my installed apps were in settings.py, I created a Model to define how the Sequence input. After I was done making my model, I did my migrations. I decided I could easily create a text file with the queryset from the terminal and render it to the browser. I then made the two sample querys in text files and made functions to render them into the browser. If I were to do this over again I would have serialized the xml data into json and used the django_rest_framework to make an internal api so I could parse the data out all pretty. Alas, I did what seemed the quick way out and render the text file into the browser with an HttpResponse.
