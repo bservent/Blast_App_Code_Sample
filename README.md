@@ -27,7 +27,10 @@ Bootstrap4,
 Biopython, and 
 BLAST API
 
+
 <img width="1440" alt="Screen Shot 2021-07-13 at 6 56 08 PM" src="https://user-images.githubusercontent.com/69656339/125552611-156af297-a27f-40ee-a3df-7625dace649a.png">
+
+<img width="1436" alt="Screen Shot 2021-07-13 at 6 56 46 PM" src="https://user-images.githubusercontent.com/69656339/125552889-89e8684b-ddad-415d-b0d9-3df8a85aa9bc.png">
 
 
 
